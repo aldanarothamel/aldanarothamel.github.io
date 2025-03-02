@@ -542,3 +542,7 @@ img {
     width: 450px;
   }
 }
+
+img:first-of-type {
+    border-radius: 50%;
+}
