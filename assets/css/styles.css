@@ -404,7 +404,7 @@ img {
 }
 
 .projects__subtitle {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--second-color);
   margin-bottom: var(--mb-2);
 }
