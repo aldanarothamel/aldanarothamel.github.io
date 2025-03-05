@@ -52,7 +52,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var (--second-color);
+  color: var(--second-color);
 }
 
 h1, h2, p {
@@ -115,9 +115,9 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: var (--z-fixed);
+  z-index: var(--z-fixed);
   background-color: #fff;
-  box-shadow: 0 1px 4px rgba (146, 161, 176, 0.15);
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
 /*===== NAV =====*/
@@ -203,7 +203,7 @@ img {
 }
 
 .home__title {
-  font-size: var (--big-font-size);
+  font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
 }
 
@@ -220,7 +220,7 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var (--second-color);
+  color: var(--second-color);
 }
 
 .home__social-icon:hover {
@@ -288,7 +288,7 @@ img {
 }
 
 .skills__text {
-  margin-bottom: var (--mb-4);
+  margin-bottom: var(--mb-4);
 }
 
 .skills__data {
@@ -296,7 +296,7 @@ img {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  font-weight: var (--font-semi);
+  font-weight: var(--font-semi);
   padding: .5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
@@ -306,7 +306,7 @@ img {
 .skills__icon {
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var (--first-color);
+  color: var(--first-color);
 }
 
 .skills__names {
@@ -421,9 +421,18 @@ img {
 }
 
 .projects__subtitle {
-  font-size: 2rem;
-  color: var(--first-color);
+  font-size: 1.5rem;
+  color: var(--second-color);
   margin-bottom: var(--mb-2);
+}
+
+.projects__subtitle a {
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+.projects__subtitle a:hover {
+  text-decoration: underline;
 }
 
 .projects__text {
@@ -599,4 +608,4 @@ img {
   .home__img {
     width: 450px;
   }
-}
+} 
