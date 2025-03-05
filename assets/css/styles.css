@@ -482,6 +482,22 @@ img {
   text-decoration: underline;
 }
 
+.projects__sub {
+  font-size: 1.5rem;
+  color: var(--second-color);
+  margin-bottom: var(--mb-2);
+  text-align: center;
+}
+
+.projects__sub a {
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+.projects__sub a:hover {
+  text-decoration: underline;
+}
+
 .projects__text {
   font-size: var(--normal-font-size);
 }
