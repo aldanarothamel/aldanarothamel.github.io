@@ -312,59 +312,54 @@ img {
 .skills__names {
   display: flex;
   align-items: center;
-  width: 30%;
 }
 
-.skills__bar-container {
-  width: 65%;
+.skills__percentage {
   margin-left: auto;
+  font-weight: var(--font-semi);
+  color: var(--second-color);
 }
 
 .skills__bar {
-  background-color: var(--second-color);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--first-color);
   height: .25rem;
   border-radius: .5rem;
-  position: relative;
+  z-index: var(--z-back);
 }
 
-.skills__html .skills__bar {
+.skills__html {
   width: 95%;
-  background-color: var(--first-color);
 }
 
-.skills__css .skills__bar {
+.skills__css {
   width: 90%;
-  background-color: var(--first-color);
 }
 
-.skills__js .skills__bar {
+.skills__js {
   width: 85%;
-  background-color: var(--first-color);
 }
 
-.skills__java .skills__bar {
+.skills__java {
   width: 80%;
-  background-color: var(--first-color);
 }
 
-.skills__python .skills__bar {
+.skills__python {
   width: 75%;
-  background-color: var(--first-color);
 }
 
-.skills__git .skills__bar {
+.skills__git {
   width: 85%;
-  background-color: var(--first-color);
 }
 
-.skills__excel .skills__bar {
+.skills__excel {
   width: 90%;
-  background-color: var(--first-color);
 }
 
-.skills__go .skills__bar {
+.skills__go {
   width: 70%;
-  background-color: var(--first-color);
 }
 
 /* ===== WORK =====*/
